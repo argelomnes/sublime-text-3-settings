@@ -1,0 +1,59 @@
+[
+    // file manager
+    {
+        "keys": ["ctrl+alt+n"],
+        "command": "fm_create"
+
+    },
+    {
+        "keys": ["ctrl+shift+o"],
+        "command": "fm_open_in_browser"
+    },
+    {
+        "keys": ["shift+alt+r"],
+        "command": "fm_open_in_explorer"
+    },
+
+    // origami
+    {
+        "keys": [":", "v", "s"],
+        "command": "create_pane",
+        "args":
+        {
+            "direction": "right",
+            "give_focus": true
+        }
+    },
+    {
+        "keys": [":", "h", "s"],
+        "command": "create_pane",
+        "args":
+        {
+            "direction": "down",
+            "give_focus": true
+        }
+    },
+    {
+        "keys": [":", "b", "d"],
+        "command": "destroy_pane",
+        "args":
+        {
+            "direction": "self"
+        }
+    },
+
+    // vim mode
+    {
+        "keys": ["j", "j"],
+        "command": "exit_insert_mode",
+        "context": [
+        {
+            "key": "setting.command_mode",
+            "operand": false
+        },
+        {
+            "key": "setting.is_widget",
+            "operand": false
+        }]
+    },
+]

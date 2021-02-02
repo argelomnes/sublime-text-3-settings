@@ -1,0 +1,7 @@
+{
+    "terminals": [
+    {
+        "name": "ConEmu",
+        "cmd": ["C:/Program Files/ConEmu/ConEmu64.exe", "/SINGLE", "$cwd"]
+    }],
+}

@@ -1,0 +1,32 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alabaster Color Scheme",
+		"Color Highlight",
+		"CSS3",
+		"Emmet",
+		"FileManager",
+		"Gitignore",
+		"Hide Menu",
+		"HTML-CSS-JS Prettify",
+		"Monokai Extended",
+		"Origami",
+		"Package Control",
+		"PackageResourceViewer",
+		"PHP Companion",
+		"PHP CS Fixer",
+		"ProjectManager",
+		"Sass",
+		"SnippetMaker",
+		"SublimeLinter",
+		"SublimeLinter-phpcs",
+		"Tailwind CSS Autocomplete",
+		"Tailwind Reorder",
+		"Terminal",
+		"WordPress"
+	]
+}
